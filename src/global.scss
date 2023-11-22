@@ -24,3 +24,27 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+// src/global.scss
+
+// Customize the primary color
+ion-toolbar, ion-title, ion-card, ion-input, ion-button {
+    --ion-color-primary: #8B4513; // Brown color
+  }
+  
+  // Customize the text color
+  ion-label, ion-item, ion-title {
+    color: #dd8b51; // Brown color
+  }
+  
+  // Customize the button color
+  ion-button {
+    --ion-color-warning: #8B4513; // Brown color
+    --ion-color-success: #8B4513; // Brown color
+  }
+  
+  // Customize the background color
+  ion-content, ion-modal {
+    --ion-background-color: #f0c19e; // Beige color
+  }
+  
